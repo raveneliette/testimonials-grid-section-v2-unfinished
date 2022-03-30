@@ -7,6 +7,8 @@ $color-primary-white: hsl(0, 0%, 100%);
 $color-neutral-gray: hsl(0, 0%, 81%);
 $color-neutral-grayish-blue: hsl(210, 46%, 95%);
 
+$bg-color-avatar-violet-lighten: rgb(153, 98, 241);
+
 *,
 *::after,
 *::before {
@@ -68,4 +70,16 @@ body {
 
 .flex {
     display: flex;
+
+    &--bg-color-avatar-1 {
+        background-color: $bg-color-avatar-violet-lighten;
+    }
+
+    &--bg-color-avatar-2 {
+        background-color: $color-primary-violet;
+    }
+
+    &__image {
+        border-radius: 3.846rem;
+    }
 }
