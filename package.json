@@ -1,0 +1,25 @@
+{
+  "name": "testimonials-grid-section-v2",
+  "version": "1.0.0",
+  "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raveneliette/testimonials-grid-section-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raveneliette/testimonials-grid-section-v2/issues"
+  },
+  "homepage": "https://github.com/raveneliette/testimonials-grid-section-v2#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.49.9"
+  }
+}
