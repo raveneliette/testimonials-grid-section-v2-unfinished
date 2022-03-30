@@ -30,6 +30,10 @@ body {
 
 .main {
 
+    & > div {
+        padding: 2.4rem;
+    }
+
     &--grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
