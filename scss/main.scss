@@ -17,6 +17,13 @@ $bg-color-avatar-violet-lighten: rgb(153, 98, 241);
     box-sizing: inherit;
 }
 
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
 /* We allow the user to zoom in on the page automatically */
 /* 13px / 16px = -.813 = 81.3% */
 /* .813 * 16px = 13px */
