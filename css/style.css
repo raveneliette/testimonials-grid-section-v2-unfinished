@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&5display=swap');
 
 *,
 *::after,
@@ -6,4 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+}
+
+/* We allow the user to zoom in on the page automatically */
+/* 13px / 16px = -.813 = 81.3% */
+/* .813 * 16px = 13px */
+html {
+    font-size: 81.3%;
 }
