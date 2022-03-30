@@ -70,6 +70,20 @@ body {
 
 .flex {
     display: flex;
+    align-items: center;
+
+    &__image-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 55px;
+        height: 55px;
+    }
+
+    &--bg-color-avatar-1,
+    &--bg-color-avatar-2 {
+        border-radius: 3.846rem;
+    }
 
     &--bg-color-avatar-1 {
         background-color: $bg-color-avatar-violet-lighten;
@@ -81,5 +95,7 @@ body {
 
     &__image {
         border-radius: 3.846rem;
+        width: 50px;
+        height: 50px;
     }
 }
