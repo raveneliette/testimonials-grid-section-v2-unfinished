@@ -27,3 +27,35 @@ body {
     box-sizing: border-box;
     background-color: $color-neutral-grayish-blue;
 }
+
+.main {
+
+    &--grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__daniel-card {
+        background-color: $color-primary-violet;
+        grid-column: 1 / 3;        
+    }
+
+    &__jonathan-card {
+        background-color: $color-primary-grayish-blue;
+    }
+
+    &__jeanette-card {
+        background-color: $color-primary-white;
+    }
+
+    &__patrick-card {
+        background-color: $color-primary-blackish-blue;
+        grid-column: 2 / 4;
+    }
+
+    &__kira-card {
+        background-color: $color-primary-white;
+        grid-column: 4 / 4;
+        grid-row: 1 / 3;
+    }
+}
