@@ -11,7 +11,11 @@ $bg-color-avatar-violet-lighten: rgb(153, 98, 241);
 
 $text-colors: (
     "light": hsl(0, 0%, 81%),
-    "dark": hsl(219, 29%, 14%)
+    "light-med-opacity": hsla(0, 0%, 81%, 50%),
+    "light-high-opacity": hsla(0, 0%, 81%, 70%),
+    "dark": hsl(219, 29%, 14%),
+    "dark-med-opacity": hsla(217, 29%, 14%, 50%),
+    "dark-high-opacity": hsla(217, 29%, 14%, 70%)
 );
 
 @function text-color($color) {
