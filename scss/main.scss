@@ -123,6 +123,10 @@ body {
         margin-top: 1.8rem;
     }
 
+    & > :nth-of-type(5) &__quotations {
+        line-height: 1.32;
+    }
+
     &--grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
