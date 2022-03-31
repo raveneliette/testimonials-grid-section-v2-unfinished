@@ -9,6 +9,8 @@ $color-neutral-grayish-blue: hsl(210, 46%, 95%);
 
 $bg-color-avatar-violet-lighten: rgb(166, 118, 243);
 
+$bg-color-card-shadow: hsl(210, 20%, 80%);
+
 $text-colors: (
     "light": hsl(0, 0%, 81%),
     "light-med-opacity": hsla(0, 0%, 81%, 50%),
@@ -64,6 +66,7 @@ body {
     & > div {
         padding: 1.8rem 2.4rem;
         border-radius: 0.615rem;
+        box-shadow: 10px 15px 30px -6px $bg-color-card-shadow;
     }
 
     & > :nth-of-type(1),
