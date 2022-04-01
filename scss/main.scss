@@ -148,25 +148,30 @@ body {
         background-color: $color-primary-violet;
         grid-column: 1 / 3;
         position: relative;
+        animation: movefromLeft 1s ease-in-out 1.2s backwards;
     }
 
     &__jonathan-card {
         background-color: $color-primary-grayish-blue;
+        animation: movefromTop 1s ease-in-out .3s backwards;
     }
 
     &__jeanette-card {
         background-color: $color-primary-white;
+        animation: movefromLeft 1s ease-in-out 1.5s backwards;
     }
 
     &__patrick-card {
         background-color: $color-primary-blackish-blue;
         grid-column: 2 / 4;
+        animation: movefromBottom 1s ease-in-out 1s backwards;
     }
 
     &__kira-card {
         background-color: $color-primary-white;
         grid-column: 4 / 4;
         grid-row: 1 / 3;
+        animation: movefromRight 1s ease-in-out 1.1s backwards;
     }
 
     &__name {
@@ -240,6 +245,66 @@ body {
     &__image {
         width: 100px;
         height: 97px;
+    }
+}
+
+@keyframes movefromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes movefromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes movefromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes movefromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    80% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
