@@ -66,7 +66,9 @@ body {
     & > div {
         padding: 1.8rem 2.4rem;
         border-radius: 0.615rem;
-        box-shadow: 0.769rem 1.154rem 2.308rem -0.462rem $color-card-shadow;
+        box-shadow: 2.8rem 2.8rem 3rem -2.5rem $color-card-shadow;
+        //box-shadow 1 -- 2.8rem 2.8rem 3rem -2.5rem $color-card-shadow;
+        //box-shadow 2 -- 0.769rem 1.154rem 2.308rem -0.462rem $color-card-shadow;
     }
 
     & > :nth-of-type(1),
