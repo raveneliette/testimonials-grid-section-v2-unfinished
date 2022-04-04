@@ -316,3 +316,14 @@ body {
         transform: translateY(0);
     }
 }
+
+// Task's
+// Change all the widths into max-widths property
+// Create new Sass folders and their partial files
+// Sort all selcetors to different partial Sass files
+// Add new variables for grids widths and margins
+// Use pseudo class :not() ex: :not(:nth-child) - to Selects or style everything except to that specific child
+// use css calc to calculate lengths (optional)
+// use extends (%) - Use this if there’s a lot of same selectors everywhere; You should only ever use extends if the rules that we are extending are inherently and thematically related (like for example the two buttons they are actually related); Just prefer mixins over this!
+// Use "Don't Repeat Yourself"
+// Use special attribute selector [class^=""]
