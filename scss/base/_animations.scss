@@ -1,0 +1,79 @@
+.main__daniel-card {
+    animation: movefromLeft 1s ease-in-out 1.2s backwards;
+}
+
+.main__jonathan-card {
+    animation: movefromTop 1s ease-in-out .3s backwards;
+}
+
+.main__jeanette-card {
+    animation: movefromLeft 1s ease-in-out 1.5s backwards;
+}
+
+.main__patrick-card {
+    animation: movefromBottom 1s ease-in-out 1s backwards;
+}
+
+.main__kira-card {
+    animation: movefromRight 1s ease-in-out 1.1s backwards;
+}
+
+@keyframes movefromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes movefromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes movefromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes movefromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    80% {
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

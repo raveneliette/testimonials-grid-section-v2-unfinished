@@ -1,0 +1,19 @@
+$color-primary-violet: hsl(263, 55%, 52%);
+$color-primary-grayish-blue: hsl(217, 19%, 35%);
+$color-primary-blackish-blue: hsl(219, 29%, 14%);
+$color-primary-white: hsl(0, 0%, 100%);
+$color-neutral-gray: hsl(0, 0%, 81%);
+$color-neutral-grayish-blue: hsl(210, 46%, 95%);
+
+$bg-color-avatar-violet-lighten: rgb(166, 118, 243);
+
+$color-card-shadow: hsl(210, 20%, 80%);
+
+$text-colors: (
+    "light": hsl(0, 0%, 81%),
+    "light-med-opacity": hsla(0, 0%, 81%, 50%),
+    "light-high-opacity": hsla(0, 0%, 81%, 70%),
+    "dark": hsl(219, 29%, 14%),
+    "dark-med-opacity": hsla(217, 29%, 14%, 50%),
+    "dark-high-opacity": hsla(217, 29%, 14%, 70%)
+);

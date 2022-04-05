@@ -1,0 +1,6 @@
+@mixin hover-top {
+    &:hover {
+        transform: translateY(-.5rem);
+        cursor: pointer;
+    }
+}

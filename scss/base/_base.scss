@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* We allow the user to zoom in on the page automatically */
+/* 13px / 16px = -.813 = 81.3% */
+/* .813 * 16px = 13px */
+html {
+    font-size: 81.3%; //13px
+}
+
+body {
+    box-sizing: border-box;
+}
